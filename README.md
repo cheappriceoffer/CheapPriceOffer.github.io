@@ -1,93 +1,38 @@
-# Jekyll Template - Mediumish by WowThemes.net
+# Adam Blog is a minimal clear theme for Jekyll
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Buy me a coffe](https://www.buymeacoffee.com/sal)
+![Adam Blog - Imac](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-blog-imac.jpg?raw=true)
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+## Demo
 
-### Features
+Check the theme in action [Demo](https://artemsheludko.github.io/adam-blog/)
 
-- Built for Jekyll
-- Compatible with Github pages
-- Featured Posts
-- Index Pagination
-- Post Share
-- Post Categories
-- Prev/Next Link
-- Category Archives (this is not yet compatible with github pages though)
-- Jumbotron Categories
-- Integrations:
-    - Disqus Comments
-    - Google Analaytics
-    - Mailchimp Integration
-- Design Features:
-    - Bootstrap v4.x
-    - Font Awesome
-    - Masonry
-- Layouts:
-    - Default
-    - Post
-    - Page
-    - Archive
-    
-### Using Mediumish
+The main page would look like this:
 
-- Open `_config.yml`. If your site is in root, for `baseurl`, make sure this is set to `baseurl: ''`
-Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
-- Mediumish requires 2 plugins: 
-    - `$ gem install jekyll-paginate`
-    - `$ gem install jekyll-archives`.
-- Edit the menu and footer copyrights in `default.html`
-- Start by adding your .md files in `_posts`. Mediumish already has a few as an example. 
-- YAML front matter
-    - featured post - `featured:true`
-    - exclude featured post from "All stories" loop to avoid duplicated posts - `hidden:true`
-    - post image - `image: assets/images/mypic.jpg`
-    - page comments - `comments:true`
-    - meta description (optional) - `description: "this is my meta description"`
-    
-**YAML Post Example**:
+![Main page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-home-page.jpg?raw=true)
 
-```
----
-layout: post
-title:  "We all wait for summer"
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-featured: true
----
-```
+The post page would look like this:
 
-`comments: false` - disable comments in posts
+![Post page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-post-example.jpg?raw=true)
 
-`image: "https://www.myexternal.com/image.jpg"`  - set external featured image
-    
-**YAML Page Example**:
+## Features
 
-```
----
-layout: page
-title: Mediumish Template for Jekyll
-comments: true
----
-```
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [MailChimp](https://mailchimp.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- [Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
-### Copyright
+## Installation:
 
-Copyright (C) 2018 WowThemes.net.
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
+## License
 
-<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+GNU General Public License v3.0
 
-### Contribute
+## Donate
 
-- [Clone the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-- Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-- Open a pull request on GitHub and describe the feature or fix.
-
-Thank you so much for your contribution!
-
------------------
-
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip)
+<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
+<p>Either way, your support is a way to thank me ❤️</p>
+<p align="center"><b>Thank you for your support!</b></p>
