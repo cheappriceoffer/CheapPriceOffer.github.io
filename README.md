@@ -1,21 +1,93 @@
-#Jekyll Masonry Theme
+# Jekyll Template - Mediumish by WowThemes.net
 
-This using masonry griding to give a nice design
+[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Buy me a coffe](https://www.buymeacoffee.com/sal)
 
-Demo - [http://pasindud.github.io/](http://pasindud.github.io/)
+![mediumish](assets/images/mediumish-jekyll-template.png)
 
-Dev by Pasindu De Silva
+### Features
 
-Was orignial authored by [Arunoda](https://github.com/arunoda)
+- Built for Jekyll
+- Compatible with Github pages
+- Featured Posts
+- Index Pagination
+- Post Share
+- Post Categories
+- Prev/Next Link
+- Category Archives (this is not yet compatible with github pages though)
+- Jumbotron Categories
+- Integrations:
+    - Disqus Comments
+    - Google Analaytics
+    - Mailchimp Integration
+- Design Features:
+    - Bootstrap v4.x
+    - Font Awesome
+    - Masonry
+- Layouts:
+    - Default
+    - Post
+    - Page
+    - Archive
+    
+### Using Mediumish
 
-###License
+- Open `_config.yml`. If your site is in root, for `baseurl`, make sure this is set to `baseurl: ''`
+Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
+- Mediumish requires 2 plugins: 
+    - `$ gem install jekyll-paginate`
+    - `$ gem install jekyll-archives`.
+- Edit the menu and footer copyrights in `default.html`
+- Start by adding your .md files in `_posts`. Mediumish already has a few as an example. 
+- YAML front matter
+    - featured post - `featured:true`
+    - exclude featured post from "All stories" loop to avoid duplicated posts - `hidden:true`
+    - post image - `image: assets/images/mypic.jpg`
+    - page comments - `comments:true`
+    - meta description (optional) - `description: "this is my meta description"`
+    
+**YAML Post Example**:
 
-The MIT License (MIT)
+```
+---
+layout: post
+title:  "We all wait for summer"
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/5.jpg
+featured: true
+---
+```
 
-Copyright (c) 2015 Pasindu
+`comments: false` - disable comments in posts
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+`image: "https://www.myexternal.com/image.jpg"`  - set external featured image
+    
+**YAML Page Example**:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+```
+---
+layout: page
+title: Mediumish Template for Jekyll
+comments: true
+---
+```
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### Copyright
+
+Copyright (C) 2018 WowThemes.net.
+
+**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
+
+<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+### Contribute
+
+- [Clone the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
+- Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
+- Open a pull request on GitHub and describe the feature or fix.
+
+Thank you so much for your contribution!
+
+-----------------
+
+[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip)
