@@ -571,8 +571,8 @@ a.btn {color:#fff;}
     font-size:15px;
 }
 .btn-primary {
-    background-color: #675bff;
-    border-color: #675bff;
+    background-color: black;
+    border-color: white;
 }
 .btn.follow {
 	border-color:#6FD350;
